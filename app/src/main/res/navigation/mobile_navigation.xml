@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/abp">
+
+    <fragment
+        android:id="@+id/abp"
+        android:name="com.example.dailydose.ui.abp.HomeFragment"
+        android:label="@string/abplive"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_abp_to_ajtk"
+            app:destination="@id/ajtk" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ajtk"
+        android:name="com.example.dailydose.ui.aajtak.GalleryFragment"
+        android:label="@string/aajtak"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/ndtv"
+        android:name="com.example.dailydose.ui.ndtv.SlideshowFragment"
+        android:label="@string/ndtvlive"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

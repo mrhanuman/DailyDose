@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DailyDose</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="abp">ABP</string>
+    <string name="zeenws">ZEE NEWS</string>
+    <string name="ajtk">AAJ TAK</string>
+    <string name="ndt">NDTV</string>
+    <string name="upcoming">upcoming</string>
+    <string name="abplive">ABP Live</string>
+    <string name="aajtak">AAJ TAK</string>
+    <string name="ndtvlive">ndtv</string>
+</resources>
